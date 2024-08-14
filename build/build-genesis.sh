@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf ~/.ethereum
-bin/geth init genesis.json
+bin/geth --datadir node1 init genesis.json
+bin/geth --datadir node2 init genesis.json
