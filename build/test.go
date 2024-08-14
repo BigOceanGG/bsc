@@ -13,7 +13,7 @@ import (
 )
 
 var (
-	file     = flag.String("file", "/root/UTC--2024-08-14T02-44-26.761151265Z--41ac5b96d761b831c9def0f78d4fcdddc516fa43", "file")
+	file     = flag.String("file", "node1/keystore/UTC--2024-08-14T03-20-16.606903330Z--607837901c98d9820230387a844dec52570dbe4e", "file")
 	password = flag.String("password", "123", "password")
 )
 
@@ -62,7 +62,7 @@ func main() {
 	// 打印压缩形式的公钥
 	fmt.Printf("Compressed Public Key: %x\n", compressedPublicKey)
 
-	fmt.Printf("Address:\t%s\nPrivateKey:\t%s\nAddress1:\t%s",
+	fmt.Printf("Address:\t%s\nPrivateKey:\t%s\n",
 		address,
 		privateKey,
 	)

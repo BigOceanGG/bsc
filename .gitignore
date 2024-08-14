@@ -15,6 +15,10 @@
 */**/*dapps*
 build/_vendor/pkg
 
+build/*.log
+build/node1/geth
+build/node2/geth
+
 #*
 .#*
 *#
