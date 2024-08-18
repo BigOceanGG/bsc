@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bin/geth --datadir node2 -http -http.api "web3,eth,net,debug,personal,admin,miner" --http.addr "0.0.0.0" --port 30503 --http.port 8645 --ws --ws.port 8646  --networkid 168  --allow-insecure-unlock --rpc.allow-unprotected-txs --history.transactions 0 --bootnodes 'enode://49bbca415e31258577d5964ff3e289cf8b52bb267991baae66df6d6fc9a8a7ee235c8b1d346ec61ac5826ed5aa7add69e432be205d7adfd8994d3ed41882277b@127.0.0.1:30303' >node2.log 2>&1 &
+bin/geth --datadir "node2" --port "30312" --http --http.addr "127.0.0.1" --http.port "8502" --http.api "personal,eth,admin,net,web3,txpool,miner" --networkid 168 --miner.gasprice "0" --allow-insecure-unlock --unlock "0x4E380a4030fbC6B85aCd022eE75932d902c9243c" --password node2/password.txt --miner.etherbase "0x4E380a4030fbC6B85aCd022eE75932d902c9243c" --mine  --bootnodes "enode://9e08a2bc6542445d652c6dfd4e5fcb180ab843b8f5e731e2ce3b481a4146b51834e40345c5a2c78ec02fe44b45488605c0aa8af60967d1e199589843c03a3ad9@127.0.0.1:30311" >node2.log 2>&1 &
 
 tail -f node2.log
