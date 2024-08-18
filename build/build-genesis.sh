@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pkill -9 geth
 rm -rf node1/geth
 rm -rf node2/geth
 bin/geth --datadir node1 init genesis.json

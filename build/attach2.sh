@@ -1,3 +1,3 @@
 #!/bin/bash
 
-bin/geth attach http://127.0.0.1:8502
+bin/geth attach ipc:node2/geth.ipc
