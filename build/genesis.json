@@ -21,37 +21,37 @@
   "coinbase": "0x0000000000000000000000000000000000000000",
   "alloc": {
     "607837901C98d9820230387a844Dec52570DbE4e": {
-      "balance": "0x1b1ae4d6e2ef500000"
+      "balance": "0x1d67d5204afef400000"
     },
-    "5E92A058D0b8cd9aeBF39cCE3abbCB8BDF574880": {
-      "balance": "0xadb53acfa41af000000000"
+    "26E40D55795509a206067b403Bbf1Ae6D46e3D38": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "F4870d352414093421f632e4Fdf5dC955C2072cD": {
-      "balance": "0xadb53acfa41af000000000"
+    "7a8A25f66f55Ac0c13c456AFd888995b71e2767D": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "1f4b7E494064cCcc650650526974eCCd57813769": {
-      "balance": "0xadb53acfa41af000000000"
+    "d91e58A3313B309f6f307DF37Db0a42149cB895a": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "1373C5AA90E8790f7aF6144bd532293277503623": {
-      "balance": "0xadb53acfa41af000000000"
+    "2A7A7e7514492B882b6E49cE373E973a94187916": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "8Df16B07BB975545469D311602f2e17932C77ACf": {
-      "balance": "0xadb53acfa41af000000000"
+    "9BCced8035715Ee9233bcA5E48cE0bd918F204a6": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "09Cb215E6E26cc50b797676Df39eA9d895E34978": {
-      "balance": "0xadb53acfa41af000000000"
+    "3b560D62d3c14781bd2F3447569F41f1087891d1": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "Ddb8224dD0692a943f1a32c4cD53E8EC8e0C66B4": {
-      "balance": "0xadb53acfa41af000000000"
+    "DA2F08719b23960C812D5d53e3501Afad40C5C1d": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "5b9B9556E78F04030F6ec6cD3192f245a21C417A": {
-      "balance": "0xadb53acfa41af000000000"
+    "4E5658A45dC0021c3896BC4daE392bBbFEd0a4Cd": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "C21Ed720B8E67e51DC2A9Aead3EdA89d065F8A56": {
-      "balance": "0xadb53acfa41af000000000"
+    "A540Fe0461FD2fF67b8B42Ead1E5979EDCc12A28": {
+      "balance": "0x6c9144c1c690d4000000000"
     },
-    "D5Ce3Fed01a2d1D77C204fE1f75b2FA828EBAA35": {
-      "balance": "0xadb53acfa41af000000000"
+    "BAA77c2CFfDdDDa1586DBD5B84258238444C53d4": {
+      "balance": "0x6c9144c1c690d4000000000"
     }
   },
   "number": "0x0",
